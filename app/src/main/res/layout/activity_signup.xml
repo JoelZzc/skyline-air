@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_gradient">
+
+    <!-- Logo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✈ SKYLINE AIR"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Subtitulo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crea tu cuenta"
+        android:textColor="#E0E7FF"
+        android:textSize="14sp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Nombre -->
+    <com.example.skyline_air.components.CustomInput
+        android:id="@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre completo"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Email -->
+    <com.example.skyline_air.components.CustomInput
+        android:id="@+id/inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Password -->
+    <com.example.skyline_air.components.CustomInput
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Confirm Password -->
+    <com.example.skyline_air.components.CustomInput
+        android:id="@+id/inputConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar contraseña"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón -->
+    <com.example.skyline_air.components.CustomButton
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta"/>
+
+    <!-- Link -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ya tienes cuenta? Inicia sesión"
+        android:textColor="#E0E7FF"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
